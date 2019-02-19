@@ -1,5 +1,5 @@
 <template>
-  <v-app id="keep">
+  <v-app id="CoordinacionI">
     <v-navigation-drawer
       v-model="drawer"
       fixed
@@ -203,7 +203,7 @@
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-         <router-link to="/coordinacion-i"><v-list-tile-title>Coordinación de inglés</v-list-tile-title></router-link>
+        <v-list-tile-title>Coordinación de inglés</v-list-tile-title>
       </v-list-tile>
       
 
@@ -211,7 +211,7 @@
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-         <router-link to="/dir-er"><v-list-tile-title>Dirección de energías renovables</v-list-tile-title></router-link>
+        <v-list-tile-title>Dirección de energías renovables</v-list-tile-title>
       </v-list-tile>
 
 
@@ -233,25 +233,8 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-        <img alt="Vue logo" src='@/assets/toluca.png' height="300">
         
 
-         <!--<v-img
-                  :src="'http://interpolitecnicas.upsin.edu.mx/administracion/assets/img/logos_politecnicas/toluca.png'"
-                  aspect-ratio="1"
-                   
-                >
-                  <v-layout
-                    slot="placeholder"
-                    fill-height
-                    align-center
-                    justify-center
-                    ma-0
-                  >
-                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                  </v-layout>
-                </v-img>
--->
 
 
       </v-flex>

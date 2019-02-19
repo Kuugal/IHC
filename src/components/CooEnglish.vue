@@ -1,5 +1,5 @@
 <template>
-  <v-app id="keep">
+  <v-app id="CoordinacionI">
     <v-navigation-drawer
       v-model="drawer"
       fixed
@@ -233,42 +233,34 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-        <img alt="Vue logo" src='@/assets/toluca.png' height="300">
-        
-
-         <!--<v-img
-                  :src="'http://interpolitecnicas.upsin.edu.mx/administracion/assets/img/logos_politecnicas/toluca.png'"
-                  aspect-ratio="1"
-                   
-                >
-                  <v-layout
-                    slot="placeholder"
-                    fill-height
-                    align-center
-                    justify-center
-                    ma-0
-                  >
-                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                  </v-layout>
-                </v-img>
--->
-
+      <img alt="Vue logo" src='@/assets/EdificioG.png' height="300">        
+<h3>Coordinación de Inglés</h3>
+<img alt="Vue logo" src='@/assets/GMap.jpeg' height="200">        
 
       </v-flex>
 
 
       <v-flex xs12>
- <p>Este sitio es un prototipo para una aplicación de funcionalidad localizada surgida a partir de necesidades específicas de usuarios de la universidad.</p>
- 
-<strong>El principal objetivo de la página es:</strong>
+ <strong>Objetivo General</strong>
+ <p>
+El objetivo general de la enseñanza del inglés es que los estudiantes obtengan los conocimientos necesarios para participar en prácticas sociales del lenguaje de manera oral y escrita, con hablantes nativos y no nativos del inglés, a través de actividades que conllevan la producción e interpretación de diversos textos escritos y orales de naturaleza cotidiana, académica y literaria.
+</p>
+<strong>Objetivos Específicos</strong>
+<p>
+    Sensibilizar a los estudiantes sobre la existencia de una lengua distinta de la materna, y se familiaricen con ella.
+    Que los estudiantes obtengan los conocimientos necesarios para comprender y utilizar la lengua inglesa de manera que puedan reconocer, entender y emplear expresiones ampliamente utilizadas.
+    Comprender y usar el inglés para desarrollar tareas comunicativas simples y cotidianas sobre temas conocidos o habituales relacionados con los ambientes familiar y comunitario, académico y de formación, o el literario y lúdico.
+    Que los estudiantes consoliden su dominio del inglés en situaciones comunicativas básicas y sean capaces de participar en actividades con el lenguaje, propias de prácticas sociales del lenguaje.
+</p>
+<strong>Misión</strong>
+<p>Proporcionar a los alumnos de las condiciones que les permitan formarse a través de una educación integral de calidad, incluyente, pertinente e innovadora para el desarrollo y fortalecimiento de las competencias afectivas, sociales y cognoscitivas que favorezcan las funciones mentales de razonamiento lógico, reflexión, integración de juicios, asi como el desarrollo de su creatividad.
 
-    <p>El brindar a todos los interesados la información que sea requerida acerca de las ubicaciones de los puntos de interes de la institución.
-    Que el servicio brindado sea rápido y de fácil acceso.    
-    Solucionar problemas focalizados en cuanto a la distribución geográfica de la infraestructura de la universidad.</p>
+Establecer las estructuras dinámicas que propicien un ambiente democrático, que permita a los alumnos cultivar una actitud que responda a la práctica de los valores y al desenvolvimiento de sus capacidades, aprovechar conscientemente su potencial e interactuar productivamente con su entorno.</p>
 
-<strong>Lenguaje ciudadano</strong>
- 
-<p>Este sitio de la UPVT esta construido de tal manera que cualquier persona que acceda a él pueda entender la información, que ahí se presenta de una manera fácil y digerible.</p>
+<strong>Visión</strong>
+<p>Ofrecer una educación de calidad que permita a los alumnos desarrollar las competencias y adquirir los aprendizajes esperados establecidos en el Plan de Estudios para Educación Básica 2011.
+
+Desarrollar Las Actividades didácticas centradas en el alumno y su aprendizaje, así como formar ciudadanos que aprecien y practiquen los valores para convivir armónicamente en sociedad.</p>
         </v-flex>
         </v-layout>
         <v-layout row>
