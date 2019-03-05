@@ -391,7 +391,7 @@
       <br>
 <h3>Coordinación de Inglés</h3>
 <br>
-<img alt="Vue logo" src='@/assets/GMap.jpeg' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/computo.png' class="flex xs12">        
 <br>
       </v-flex>
 

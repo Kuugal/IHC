@@ -1,5 +1,7 @@
 module.exports = {
   pwa: {
-    name: 'IHC'
+    name: 'IHC',
+    themeColor: '#4CAF50',
+    msTileColor: '#FFFFFF'
   }
 }
