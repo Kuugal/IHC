@@ -1,5 +1,8 @@
 <template>
   <v-app id="keep">
+
+    <!-- START NAV-SIDEBAR -->
+   
     <v-navigation-drawer
       v-model="drawer"
       fixed
@@ -7,7 +10,6 @@
       class="grey lighten-4"
       app
     >
-
 <v-list>
       <v-list-tile>
         <v-list-tile-action>
@@ -100,7 +102,7 @@
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Dirección de Mecatrónica</v-list-tile-title>
+        <router-link to="/b-dir-ni"><v-list-tile-title>Dirección de Negocios Internacionales</v-list-tile-title></router-link>
       </v-list-tile>
       
 
@@ -108,21 +110,21 @@
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Laboratorio C</v-list-tile-title>
+        <router-link to="/b-lab-c"><v-list-tile-title>Laboratorios de computo</v-list-tile-title></router-link>
       </v-list-tile>
 
       <v-list-tile>
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Salón de actividades</v-list-tile-title>
+        <router-link to="/b-dir-b"><v-list-tile-title>Dirección de biotecnología</v-list-tile-title></router-link>
       </v-list-tile>
 
       <v-list-tile>
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Auditorio B</v-list-tile-title>
+        <router-link to="/b-aud-b"><v-list-tile-title>Auditorio B</v-list-tile-title></router-link>
       </v-list-tile>
        
     </v-list-group>
@@ -138,7 +140,7 @@
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Cafetería</v-list-tile-title>
+        <router-link to="/c-caf"><v-list-tile-title>Cafetería</v-list-tile-title></router-link>
       </v-list-tile>
        
     </v-list-group>
@@ -245,111 +247,71 @@
       </v-list-tile>
        
     </v-list-group>
+
     <v-list-group prepend-icon="account_balance">
 <v-list-tile slot="activator">
-          <v-list-tile-title>Edificio E*</v-list-tile-title>
+          <v-list-tile-title>Edificio E</v-list-tile-title>
         </v-list-tile>
 
          <v-list-tile>
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Control escolar</v-list-tile-title>
+         <router-link to="/e-con"><v-list-tile-title>Control escolar</v-list-tile-title></router-link>
       </v-list-tile>
 
        <v-list-tile>
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Servicio médico</v-list-tile-title>
+         <router-link to="/e-ser"><v-list-tile-title>Servicio médico</v-list-tile-title></router-link>
       </v-list-tile>
 
        <v-list-tile>
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Finanzas</v-list-tile-title>
+         <router-link to="/e-fin"><v-list-tile-title>Finanzas</v-list-tile-title></router-link>
       </v-list-tile>
 
        <v-list-tile>
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Incubadora de proyectos</v-list-tile-title>
+         <router-link to="/e-inc"><v-list-tile-title>Incubadora de proyectos</v-list-tile-title></router-link>
       </v-list-tile>
 
     </v-list-group>
-
-    <v-list-group prepend-icon="account_balance">
-<v-list-tile slot="activator">
-          <v-list-tile-title>Edificio F***</v-list-tile-title>
-        </v-list-tile>
-    </v-list-group>
-
-    <v-list-group
-        prepend-icon="account_balance"
-        value="true"
-      >
-<v-list-tile slot="activator">
-          <v-list-tile-title>Edificio G***</v-list-tile-title>
-        </v-list-tile>
-       
-            <v-list-tile>
+    
+    <v-list-tile>
         <v-list-tile-action>
-          <v-icon>all_out</v-icon>
+          <v-icon>account_balance</v-icon>
         </v-list-tile-action>
-         <router-link to="/coordinacion-i"><v-list-tile-title>Coordinación de inglés</v-list-tile-title></router-link>
-      </v-list-tile>
-      
-
-      <v-list-tile>
-        <v-list-tile-action>
-          <v-icon>all_out</v-icon>
-        </v-list-tile-action>
-         <router-link to="/dir-er"><v-list-tile-title>Dirección de energías renovables</v-list-tile-title></router-link>
-      </v-list-tile>
-       
-    </v-list-group>
-     <v-list-group
-        prepend-icon="account_balance"
-        
-      >
-<v-list-tile slot="activator">
-          <v-list-tile-title>Edificio H</v-list-tile-title>
-        </v-list-tile>
-       
-       
-
-<v-list-tile>
-        <v-list-tile-action>
-          <v-icon>all_out</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-title>Laboratorio camión</v-list-tile-title>
-      </v-list-tile>
-
-      <v-list-tile>
-        <v-list-tile-action>
-          <v-icon >all_out</v-icon>
-        </v-list-tile-action>
-        <v-list-tile-title>Laboratorios no usados</v-list-tile-title>
+        <router-link to="/f-sal"><v-list-tile-title>Edificio F</v-list-tile-title></router-link>
       </v-list-tile>
 
        <v-list-tile>
         <v-list-tile-action>
-          <v-icon >all_out</v-icon>
+          <v-icon>account_balance</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Laboratorios no usados</v-list-tile-title>
+        <router-link to="/g-can"><v-list-tile-title>Edificio G</v-list-tile-title></router-link>
       </v-list-tile>
 
-       <v-list-tile>
+ <v-list-tile>
         <v-list-tile-action>
-          <v-icon >all_out</v-icon>
+          <v-icon>account_balance</v-icon>
         </v-list-tile-action>
-        <v-list-tile-title>Bodegas</v-list-tile-title>
-      </v-list-tile>      
-       
-    </v-list-group>
+        <router-link to="/h-lab"><v-list-tile-title>Edificio H</v-list-tile-title></router-link>
+      </v-list-tile>
+    
+     <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>account_balance</v-icon>
+        </v-list-tile-action>
+        <router-link to="/i-sal"><v-list-tile-title>Edificio I</v-list-tile-title></router-link>
+      </v-list-tile>
 
+<!--
  <v-list-group prepend-icon="account_balance">
 <v-list-tile slot="activator">
           <v-list-tile-title>Casetas de vigilancia</v-list-tile-title>
@@ -369,18 +331,25 @@
         <v-list-tile-title>Entrada de vehiculos</v-list-tile-title>
       </v-list-tile>  
 
-    </v-list-group>
+    </v-list-group>-->
 
 
 </v-list>
 
+</v-navigation-drawer>
 
-    </v-navigation-drawer>
-    <v-toolbar color="green" app absolute clipped-left class="white--text">
+<v-toolbar color="green" app absolute clipped-left class="white--text">
       <v-toolbar-side-icon @click="drawer = !drawer" class="white--text"></v-toolbar-side-icon>
       <span class="title ml-3 mr-5 ">¿A dónde quieres ir?&nbsp;<span class="font-weight-light">UPVT</span></span>      
       <v-spacer></v-spacer>
     </v-toolbar>
+
+<!-- END NAV-SIDEBAR -->
+
+
+
+    
+    
     <v-content>
       <v-container fluid fill-height class="grey lighten-4">
         <v-layout align-center justify-center column fill-height>
@@ -391,22 +360,7 @@
         <img alt="Vue logo" src='@/assets/toluca.png' height="300">
         
 
-         <!--<v-img
-                  :src="'http://interpolitecnicas.upsin.edu.mx/administracion/assets/img/logos_politecnicas/toluca.png'"
-                  aspect-ratio="1"
-                   
-                >
-                  <v-layout
-                    slot="placeholder"
-                    fill-height
-                    align-center
-                    justify-center
-                    ma-0
-                  >
-                  <v-progress-circular indeterminate color="grey lighten-5"></v-progress-circular>
-                  </v-layout>
-                </v-img>
--->
+         
 
 
       </v-flex>

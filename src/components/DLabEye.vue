@@ -389,7 +389,7 @@
         </v-card>-->
       <img alt="Vue logo" src='@/assets/EdificioG.png' class="flex xs4 offset-xs4">        
       <br>
-<h3>Coordinación de Inglés</h3>
+<h3>Laboratorio de electrónica y electricidad</h3>
 <br>
 <img alt="Vue logo" src='@/assets/electronica y electricidad.png' class="flex xs12">        
 <br>

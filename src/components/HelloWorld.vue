@@ -1,144 +1,412 @@
 <template>
-  <v-container>
-    <v-layout
-      text-xs-center
-      wrap
+   <v-navigation-drawer
+      v-model="drawer"
+      fixed
+      clipped
+      class="grey lighten-4"
+      app
     >
-      <v-flex xs12>
-        <v-img
-          :src="require('../assets/logo.svg')"
-          class="my-3"
-          contain
-          height="200"
-        ></v-img>
-      </v-flex>
+<v-list>
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>home</v-icon>
+        </v-list-tile-action>
+        <router-link to="/"><v-list-tile-title>Inicio</v-list-tile-title></router-link>
+      </v-list-tile>
 
-      <v-flex mb-4>
-        <h1 class="display-2 font-weight-bold mb-3">
-          Welcome to Vuetify
-        </h1>
-        <p class="subheading font-weight-regular">
-          For help and collaboration with other Vuetify developers,
-          <br>please join our online
-          <a href="https://community.vuetifyjs.com" target="_blank">Discord Community</a>
-        </p>
-      </v-flex>
-
-      <v-flex
-        mb-5
-        xs12
+<v-list-group
+        prepend-icon="account_balance"
+        
       >
-        <h2 class="headline font-weight-bold mb-3">What's next?</h2>
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio A</v-list-tile-title>
+        </v-list-tile>
+       
+          <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-dir-in"><v-list-tile-title>Dirección de Informática</v-list-tile-title></router-link>
+      </v-list-tile>
 
-        <v-layout justify-center>
-          <a
-            v-for="(next, i) in whatsNext"
-            :key="i"
-            :href="next.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ next.text }}
-          </a>
-        </v-layout>
-      </v-flex>
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+         <router-link to="/a-rec"><v-list-tile-title>Rectoria</v-list-tile-title></router-link>
+      </v-list-tile>
 
-      <v-flex
-        xs12
-        mb-5
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-vin"><v-list-tile-title>Vinculación y planeación</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-sal-a"><v-list-tile-title>Sala de computo A</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-sal-b"><v-list-tile-title>Sala de computo B</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-sal-id"><v-list-tile-title>Sala de idiomas</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-sal-j"><v-list-tile-title>Sala de juntas</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-audi"><v-list-tile-title>Auditoría</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/a-aud-a"><v-list-tile-title >Auditorio A</v-list-tile-title></router-link>
+      </v-list-tile>
+       
+    </v-list-group>
+<v-list-group
+        prepend-icon="account_balance"
+        
       >
-        <h2 class="headline font-weight-bold mb-3">Important Links</h2>
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio B</v-list-tile-title>
+        </v-list-tile>
+       
+          <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/b-dir-ni"><v-list-tile-title>Dirección de Negocios Internacionales</v-list-tile-title></router-link>
+      </v-list-tile>
+      
 
-        <v-layout justify-center>
-          <a
-            v-for="(link, i) in importantLinks"
-            :key="i"
-            :href="link.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ link.text }}
-          </a>
-        </v-layout>
-      </v-flex>
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/b-lab-c"><v-list-tile-title>Laboratorios de computo</v-list-tile-title></router-link>
+      </v-list-tile>
 
-      <v-flex
-        xs12
-        mb-5
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/b-dir-b"><v-list-tile-title>Dirección de biotecnología</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/b-aud-b"><v-list-tile-title>Auditorio B</v-list-tile-title></router-link>
+      </v-list-tile>
+       
+    </v-list-group>
+<v-list-group
+        prepend-icon="account_balance"
+        
       >
-        <h2 class="headline font-weight-bold mb-3">Ecosystem</h2>
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio C</v-list-tile-title>
+        </v-list-tile>
+       
+          <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/c-caf"><v-list-tile-title>Cafetería</v-list-tile-title></router-link>
+      </v-list-tile>
+       
+    </v-list-group>
+    <v-list-group
+        prepend-icon="account_balance"
+        
+      >
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio D</v-list-tile-title>
+        </v-list-tile>
+       
+          <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-coo-i"><v-list-tile-title>Coordinación de inglés</v-list-tile-title></router-link>
+      </v-list-tile>
+      
 
-        <v-layout justify-center>
-          <a
-            v-for="(eco, i) in ecosystem"
-            :key="i"
-            :href="eco.href"
-            class="subheading mx-3"
-            target="_blank"
-          >
-            {{ eco.text }}
-          </a>
-        </v-layout>
-      </v-flex>
-    </v-layout>
-  </v-container>
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-dir-ind"><v-list-tile-title>Dirección de ingeniería industrial</v-list-tile-title></router-link>
+      </v-list-tile>
+
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-q"><v-list-tile-title >Laboratorio de química</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-man"><v-list-tile-title >Laboratorio de manufactura</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-hyn"><v-list-tile-title >Laboratorio de hidráulica y neumática</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-s"><v-list-tile-title >Laboratorio de simulación</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-mic"><v-list-tile-title >Laboratorio de microbiología</v-list-tile-title></router-link>
+      </v-list-tile>
+
+     
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-fym"><v-list-tile-title >Laboratorio de física y metrología</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-ene"><v-list-tile-title >Laboratorio de energía</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-com"><v-list-tile-title >Laboratorio de cómputo</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-rob"><v-list-tile-title >Laboratorio de robótica</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-lab-eye"><v-list-tile-title >Laboratorio de electrónica y electricidad</v-list-tile-title></router-link>
+      </v-list-tile>
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/d-alm-mat"><v-list-tile-title >Almacén de materiales</v-list-tile-title></router-link>
+      </v-list-tile>
+       
+    </v-list-group>
+
+    <v-list-group prepend-icon="account_balance">
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio E</v-list-tile-title>
+        </v-list-tile>
+
+         <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+         <router-link to="/e-con"><v-list-tile-title>Control escolar</v-list-tile-title></router-link>
+      </v-list-tile>
+
+       <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+         <router-link to="/e-ser"><v-list-tile-title>Servicio médico</v-list-tile-title></router-link>
+      </v-list-tile>
+
+       <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+         <router-link to="/e-fin"><v-list-tile-title>Finanzas</v-list-tile-title></router-link>
+      </v-list-tile>
+
+       <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+         <router-link to="/e-inc"><v-list-tile-title>Incubadora de proyectos</v-list-tile-title></router-link>
+      </v-list-tile>
+
+    </v-list-group>
+
+    <v-list-group prepend-icon="account_balance">
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio F</v-list-tile-title>
+        </v-list-tile>
+
+<v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+       <router-link to="/f-sal"> <v-list-tile-title>Salones</v-list-tile-title></router-link>
+      </v-list-tile>
+
+
+    </v-list-group>
+
+    <v-list-group
+        prepend-icon="account_balance"
+        value="true"
+      >
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio G</v-list-tile-title>
+        </v-list-tile>
+       
+            <v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+         <router-link to="/g-can"><v-list-tile-title>Canchas deportivas</v-list-tile-title></router-link>
+      </v-list-tile>
+            
+       
+    </v-list-group>
+
+    <!--
+     <v-list-group
+        prepend-icon="account_balance"
+        
+      >
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio H</v-list-tile-title>
+        </v-list-tile>
+
+<v-list-tile>          
+       <v-list-tile>
+        <v-list-tile-action>
+          <v-icon >all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/h-lab"><v-list-tile-title>Laboratorios no usados</v-list-tile-title></router-link>
+      </v-list-tile>
+          
+       
+    </v-list-group>
+
+    <v-list-group prepend-icon="account_balance">
+<v-list-tile slot="activator">
+          <v-list-tile-title>Edificio I</v-list-tile-title>
+        </v-list-tile>
+
+<v-list-tile>
+        <v-list-tile-action>
+          <v-icon>all_out</v-icon>
+        </v-list-tile-action>
+        <router-link to="/i-sal"><v-list-tile-title>Salones</v-list-tile-title></router-link>
+      </v-list-tile>
+
+
+    </v-list-group>
+
+ <v-list-group prepend-icon="account_balance">
+<v-list-tile slot="activator">
+          <v-list-tile-title>Casetas de vigilancia</v-list-tile-title>
+        </v-list-tile>
+
+<v-list-tile>
+        <v-list-tile-action>
+          <v-icon >all_out</v-icon>
+        </v-list-tile-action>
+        <v-list-tile-title>Entrada principla</v-list-tile-title>
+      </v-list-tile>  
+
+      <v-list-tile>
+        <v-list-tile-action>
+          <v-icon >all_out</v-icon>
+        </v-list-tile-action>
+        <v-list-tile-title>Entrada de vehiculos</v-list-tile-title>
+      </v-list-tile>  
+
+    </v-list-group>-->
+
+
+</v-list>
+
+</v-navigation-drawer>
+
+<v-toolbar color="green" app absolute clipped-left class="white--text">
+      <v-toolbar-side-icon @click="drawer = !drawer" class="white--text"></v-toolbar-side-icon>
+      <span class="title ml-3 mr-5 ">¿A dónde quieres ir?&nbsp;<span class="font-weight-light">UPVT</span></span>      
+      <v-spacer></v-spacer>
+    </v-toolbar>
+
 </template>
 
 <script>
   export default {
     data: () => ({
-      ecosystem: [
-        {
-          text: 'vuetify-loader',
-          href: 'https://github.com/vuetifyjs/vuetify-loader'
-        },
-        {
-          text: 'github',
-          href: 'https://github.com/vuetifyjs/vuetify'
-        },
-        {
-          text: 'awesome-vuetify',
-          href: 'https://github.com/vuetifyjs/awesome-vuetify'
-        }
-      ],
-      importantLinks: [
-        {
-          text: 'Documentation',
-          href: 'https://vuetifyjs.com'
-        },
-        {
-          text: 'Chat',
-          href: 'https://community.vuetifyjs.com'
-        },
-        {
-          text: 'Made with Vuetify',
-          href: 'https://madewithvuetifyjs.com'
-        },
-        {
-          text: 'Twitter',
-          href: 'https://twitter.com/vuetifyjs'
-        },
-        {
-          text: 'Articles',
-          href: 'https://medium.com/vuetify'
-        }
-      ],
-      whatsNext: [
-        {
-          text: 'Explore components',
-          href: 'https://vuetifyjs.com/components/api-explorer'
-        },
-        {
-          text: 'Select a layout',
-          href: 'https://vuetifyjs.com/layout/pre-defined'
-        },
-        {
-          text: 'Frequently Asked Questions',
-          href: 'https://vuetifyjs.com/getting-started/frequently-asked-questions'
-        }
-
+      drawer: null,
+      items: [
+       { text: 'Edificio A' },
+       { divider: true },
+        { icon: 'lightbulb_outline', text: 'Dirección de informática' },
+        { icon: 'touch_app', text: 'Rectoría' },
+        { divider: true },
+        { heading: 'Labels' },
+        { icon: 'add', text: 'Create new label' },
+        { divider: true },
+        { icon: 'archive', text: 'Archive' },
+        { icon: 'delete', text: 'Trash' },
+        { divider: true },
+        { icon: 'settings', text: 'Settings' },
+        { icon: 'chat_bubble', text: 'Trash' },
+        { icon: 'help', text: 'Help' },
+        { icon: 'phonelink', text: 'App downloads' },
+        { icon: 'keyboard', text: 'Keyboard shortcuts' }
       ]
-    })
+    }),
+    props: {
+      source: String
+    }
   }
 </script>
 
