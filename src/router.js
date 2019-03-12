@@ -104,6 +104,11 @@ export default new Router({
 			component: AAudA
 		},
 		{
+			path: '/b-aud-b',
+			name: 'AudB',
+			component: BAudB
+		},
+		{
 			path: '/b-dir-ni',
 			name: 'DirNeInt',
 			component: BDirNI

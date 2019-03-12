@@ -366,7 +366,7 @@
         <br>
  
  <p>
-Centro de expresión hablada, canciones o música, efectuados en forma pública, ya sean conferencias, discursos, lecturas, conciertos, recitales, obras de teatro, etcétera, en lugares especialmente acondicionados a dicho fin, conformando el auditorio, el público oyente. 
+Es un lugar donde se puede representar diferentes exposiciones de los proyectos que se realizan en cada carrera o se puede hacer conferencias.
 </p>
 <strong>Horario de atención</strong>
 <p>

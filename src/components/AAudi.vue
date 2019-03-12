@@ -366,7 +366,7 @@
         <br>
  
  <p>
- Area de conocimiento profundo de las operaciones de la entidad auditada, de sus sistemas y controles y del entorno en que opera. 
+ Está ubicado en la sala de estudio del Edificio A y se encarga de los trámites de la evaluación de las carreras que se muestra en la institución.
 </p>
 
         </v-flex>

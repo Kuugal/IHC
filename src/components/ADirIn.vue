@@ -366,7 +366,7 @@
         <br>
  
  <p>
-Es la inmediata responsable de promover, coordinar e impulsar los proyectos que sean destinados y que benefician a los miembros de la institución en el área de informática by TIC'S.
+Es un departamento donde se encuentran los maestros de tiempo completo (PTC) y también la directora de la carrera de la división de informática, se encargan de las asesorías de los alumnos, tanto como también son tutores de las estancias que realizan los alumnos.
 </p>
 <strong>Horario de atención</strong>
 <p>
