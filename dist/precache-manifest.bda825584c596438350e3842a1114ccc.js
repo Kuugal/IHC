@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/img/microbiologia.673597b6.png"
   },
   {
-    "revision": "f7a20acebdc0d6d0cba0",
-    "url": "/js/app.c5ea2a40.js"
+    "revision": "cd8931d718f9266f0c1d",
+    "url": "/js/app.158c0b3a.js"
   },
   {
     "revision": "1961fe998bf0f743670c",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/img/toluca.af0cbd20.png"
   },
   {
-    "revision": "3b748ecd427584db0152d9e373d74ccf",
+    "revision": "be267d8133ad32a2cde223343452e27d",
     "url": "/index.html"
   },
   {
@@ -54,6 +54,10 @@ self.__precacheManifest = [
   {
     "revision": "67fd05307956b7bd16ff0a9e8328dc49",
     "url": "/img/energia.67fd0530.png"
+  },
+  {
+    "revision": "5aecf973e7804c6d053d527e61d6e9c1",
+    "url": "/img/almacen de materiales.5aecf973.png"
   },
   {
     "revision": "933857e0777dccc240aae46ea2a7adc5",
@@ -84,10 +88,6 @@ self.__precacheManifest = [
     "url": "/img/b-lab-c1.2d4bae9f.png"
   },
   {
-    "revision": "b871d8d09fddd032080690525ec5e599",
-    "url": "/img/edificio-a.b871d8d0.png"
-  },
-  {
     "revision": "e7e957c87c454bccaa3bf9fdaa6874f8",
     "url": "/img/fa-regular-400.e7e957c8.svg"
   },
@@ -100,8 +100,12 @@ self.__precacheManifest = [
     "url": "/img/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "d7a359d5180b79306c0716965554f463",
-    "url": "/img/b-dir-bio.d7a359d5.png"
+    "revision": "b871d8d09fddd032080690525ec5e599",
+    "url": "/img/edificio-a.b871d8d0.png"
+  },
+  {
+    "revision": "b95498b7ccae81d8a9a89ce990edad9b",
+    "url": "/img/edificio-d.b95498b7.jpeg"
   },
   {
     "revision": "55e3984f7ff31624dec669bcd3f8460a",
@@ -124,8 +128,12 @@ self.__precacheManifest = [
     "url": "/img/edificio-b.748ed2b8.png"
   },
   {
-    "revision": "13ec0eb5bdb821ff4930237d7c9f943f",
-    "url": "/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
+    "revision": "d7a359d5180b79306c0716965554f463",
+    "url": "/img/b-dir-bio.d7a359d5.png"
+  },
+  {
+    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
+    "url": "/fonts/Roboto-BoldItalic.94008e69.woff2"
   },
   {
     "revision": "c0583e54035bd3aa26d658aa67b358ea",
@@ -136,16 +144,8 @@ self.__precacheManifest = [
     "url": "/img/a-sal-a.37ac8926.png"
   },
   {
-    "revision": "f75569f8a5fab0893fa712d8c0d9c3fe",
-    "url": "/fonts/Roboto-BlackItalic.f75569f8.woff2"
-  },
-  {
-    "revision": "59ae7579d7061bbfd5b41a56864730fb",
-    "url": "/img/a-auditoria.59ae7579.png"
-  },
-  {
-    "revision": "d67fa5e2c4d107af8f789466804130ef",
-    "url": "/img/a-auditorio.d67fa5e2.png"
+    "revision": "d3b47375afd904983d9be8d6e239a949",
+    "url": "/fonts/Roboto-Thin.d3b47375.woff"
   },
   {
     "revision": "dbd06039bc9564f9148fe0f0ee978da4",
@@ -156,88 +156,88 @@ self.__precacheManifest = [
     "url": "/fonts/Roboto-Regular.35b07eb2.woff"
   },
   {
-    "revision": "b5596f4d339f99e3d69bc41be78db962",
-    "url": "/fonts/fa-solid-900.b5596f4d.eot"
+    "revision": "59ae7579d7061bbfd5b41a56864730fb",
+    "url": "/img/a-auditoria.59ae7579.png"
   },
   {
-    "revision": "56272be62176f9a7e7c5287aabba7ded",
-    "url": "/img/GMap.56272be6.jpeg"
-  },
-  {
-    "revision": "8d669aac4cb2a29dea5ffe4ffbed5e45",
-    "url": "/img/EdificioG.8d669aac.png"
-  },
-  {
-    "revision": "b70cea0339374107969eb53e5b1f603f",
-    "url": "/fonts/fa-solid-900.b70cea03.ttf"
-  },
-  {
-    "revision": "c73eb1ceba3321a80a0aff13ad373cb4",
-    "url": "/fonts/Roboto-Light.c73eb1ce.woff"
-  },
-  {
-    "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
-    "url": "/fonts/fa-brands-400.4b115e11.woff2"
-  },
-  {
-    "revision": "65779ebcc35604a25c2ba77309c5b8af",
-    "url": "/fonts/fa-regular-400.65779ebc.woff2"
-  },
-  {
-    "revision": "61969d433bf265b9717a6c357a1e04e4",
-    "url": "/fonts/fa-solid-900.61969d43.woff"
-  },
-  {
-    "revision": "c39278f7abfc798a241551194f55e29f",
-    "url": "/fonts/fa-brands-400.c39278f7.ttf"
-  },
-  {
-    "revision": "5dd3976cb5d61e2e561f2a46b916f377",
-    "url": "/fonts/fa-regular-400.5dd3976c.woff"
-  },
-  {
-    "revision": "414ff5daad323a1c47c5177d4bd29674",
-    "url": "/fonts/fa-regular-400.414ff5da.eot"
-  },
-  {
-    "revision": "462806316fea535a6a57651bc2b000b0",
-    "url": "/fonts/fa-solid-900.46280631.woff2"
-  },
-  {
-    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
-    "url": "/fonts/fa-regular-400.f6c6f6c8.ttf"
-  },
-  {
-    "revision": "d9d17590c975aad1be0ddab673f9c769",
-    "url": "/fonts/fa-brands-400.d9d17590.eot"
-  },
-  {
-    "revision": "b90365bccdabd68c6c03902b4b141f09",
-    "url": "/fonts/fa-brands-400.b90365bc.woff"
-  },
-  {
-    "revision": "4fe0f73cc919ba2b7a3c36e4540d725c",
-    "url": "/fonts/Roboto-BoldItalic.4fe0f73c.woff"
-  },
-  {
-    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
-    "url": "/fonts/Roboto-BoldItalic.94008e69.woff2"
-  },
-  {
-    "revision": "d3b47375afd904983d9be8d6e239a949",
-    "url": "/fonts/Roboto-Thin.d3b47375.woff"
-  },
-  {
-    "revision": "d26871e8149b5759f814fd3c7a4f784b",
-    "url": "/fonts/Roboto-Light.d26871e8.woff2"
+    "revision": "d67fa5e2c4d107af8f789466804130ef",
+    "url": "/img/a-auditorio.d67fa5e2.png"
   },
   {
     "revision": "1d6594826615607f6dc860bb49258acb",
     "url": "/fonts/Roboto-Medium.1d659482.woff"
   },
   {
+    "revision": "d9d17590c975aad1be0ddab673f9c769",
+    "url": "/fonts/fa-brands-400.d9d17590.eot"
+  },
+  {
+    "revision": "462806316fea535a6a57651bc2b000b0",
+    "url": "/fonts/fa-solid-900.46280631.woff2"
+  },
+  {
+    "revision": "65779ebcc35604a25c2ba77309c5b8af",
+    "url": "/fonts/fa-regular-400.65779ebc.woff2"
+  },
+  {
+    "revision": "56272be62176f9a7e7c5287aabba7ded",
+    "url": "/img/GMap.56272be6.jpeg"
+  },
+  {
+    "revision": "b5596f4d339f99e3d69bc41be78db962",
+    "url": "/fonts/fa-solid-900.b5596f4d.eot"
+  },
+  {
+    "revision": "5dd3976cb5d61e2e561f2a46b916f377",
+    "url": "/fonts/fa-regular-400.5dd3976c.woff"
+  },
+  {
+    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
+    "url": "/fonts/fa-regular-400.f6c6f6c8.ttf"
+  },
+  {
+    "revision": "8d669aac4cb2a29dea5ffe4ffbed5e45",
+    "url": "/img/EdificioG.8d669aac.png"
+  },
+  {
+    "revision": "414ff5daad323a1c47c5177d4bd29674",
+    "url": "/fonts/fa-regular-400.414ff5da.eot"
+  },
+  {
+    "revision": "61969d433bf265b9717a6c357a1e04e4",
+    "url": "/fonts/fa-solid-900.61969d43.woff"
+  },
+  {
+    "revision": "b70cea0339374107969eb53e5b1f603f",
+    "url": "/fonts/fa-solid-900.b70cea03.ttf"
+  },
+  {
+    "revision": "4fe0f73cc919ba2b7a3c36e4540d725c",
+    "url": "/fonts/Roboto-BoldItalic.4fe0f73c.woff"
+  },
+  {
+    "revision": "c39278f7abfc798a241551194f55e29f",
+    "url": "/fonts/fa-brands-400.c39278f7.ttf"
+  },
+  {
+    "revision": "313a65630d341645c13e4f2a0364381d",
+    "url": "/fonts/Roboto-Black.313a6563.woff"
+  },
+  {
+    "revision": "13ec0eb5bdb821ff4930237d7c9f943f",
+    "url": "/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
+  },
+  {
+    "revision": "b90365bccdabd68c6c03902b4b141f09",
+    "url": "/fonts/fa-brands-400.b90365bc.woff"
+  },
+  {
     "revision": "ad538a69b0e8615ed0419c4529344ffc",
     "url": "/fonts/Roboto-Thin.ad538a69.woff2"
+  },
+  {
+    "revision": "5b4a33e176ff736a74f0ca2dd9e6b396",
+    "url": "/fonts/Roboto-ThinItalic.5b4a33e1.woff2"
   },
   {
     "revision": "73f0a88bbca1bec19fb1303c689d04c6",
@@ -248,8 +248,8 @@ self.__precacheManifest = [
     "url": "/fonts/Roboto-ThinItalic.8a96edbb.woff"
   },
   {
-    "revision": "13efe6cbc10b97144a28310ebdeda594",
-    "url": "/fonts/Roboto-LightItalic.13efe6cb.woff"
+    "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
+    "url": "/fonts/fa-brands-400.4b115e11.woff2"
   },
   {
     "revision": "f5902d5ef961717ed263902fc429e6ae",
@@ -268,20 +268,32 @@ self.__precacheManifest = [
     "url": "/fonts/Roboto-Medium.90d16760.woff2"
   },
   {
-    "revision": "5b4a33e176ff736a74f0ca2dd9e6b396",
-    "url": "/fonts/Roboto-ThinItalic.5b4a33e1.woff2"
+    "revision": "f75569f8a5fab0893fa712d8c0d9c3fe",
+    "url": "/fonts/Roboto-BlackItalic.f75569f8.woff2"
   },
   {
-    "revision": "e8eaae902c3a4dacb9a5062667e10576",
-    "url": "/fonts/Roboto-LightItalic.e8eaae90.woff2"
+    "revision": "50d75e48e0a3ddab1dd15d6bfb9d3700",
+    "url": "/fonts/Roboto-Bold.50d75e48.woff"
+  },
+  {
+    "revision": "13efe6cbc10b97144a28310ebdeda594",
+    "url": "/fonts/Roboto-LightItalic.13efe6cb.woff"
   },
   {
     "revision": "b52fac2bb93c5858f3f2675e4b52e1de",
     "url": "/fonts/Roboto-Bold.b52fac2b.woff2"
   },
   {
-    "revision": "50d75e48e0a3ddab1dd15d6bfb9d3700",
-    "url": "/fonts/Roboto-Bold.50d75e48.woff"
+    "revision": "e8eaae902c3a4dacb9a5062667e10576",
+    "url": "/fonts/Roboto-LightItalic.e8eaae90.woff2"
+  },
+  {
+    "revision": "d26871e8149b5759f814fd3c7a4f784b",
+    "url": "/fonts/Roboto-Light.d26871e8.woff2"
+  },
+  {
+    "revision": "c73eb1ceba3321a80a0aff13ad373cb4",
+    "url": "/fonts/Roboto-Light.c73eb1ce.woff"
   },
   {
     "revision": "cc2fadc3928f2f223418887111947b40",
@@ -292,15 +304,11 @@ self.__precacheManifest = [
     "url": "/fonts/Roboto-Black.59eb3601.woff2"
   },
   {
-    "revision": "313a65630d341645c13e4f2a0364381d",
-    "url": "/fonts/Roboto-Black.313a6563.woff"
-  },
-  {
     "revision": "1961fe998bf0f743670c",
     "url": "/css/chunk-vendors.ea83ca68.css"
   },
   {
-    "revision": "f7a20acebdc0d6d0cba0",
+    "revision": "cd8931d718f9266f0c1d",
     "url": "/css/app.81dc0084.css"
   }
 ];
