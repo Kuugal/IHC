@@ -349,20 +349,21 @@
     <v-content>
       <v-container fluid fill-height class="grey lighten-4">
         <v-layout align-center justify-center column fill-height>
-      <v-flex xs10 offset-xs1>
+      <v-flex xs11>
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-i.png' class="flex xs12 offset-xs3">        
+      <img alt="Vue logo" src='@/assets/edificio-i.png' class="flex xs12">        
       <br>
-<h3>Edificio I</h3>
+
 <br>
     
-<br>
+
       </v-flex>
 
 
       <v-flex xs12>
+        <h3>Edificio I</h3>
         <br>
  
  <p>
