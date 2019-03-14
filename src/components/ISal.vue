@@ -353,7 +353,7 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-i.jpeg' class="flex xs12">        
+      <img alt="Vue logo" src='@/assets/edificio-i.png' class="flex xs12">        
       <br>
 
 <br>

@@ -353,7 +353,7 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-d.jpg' class="flex xs10 offset-xs1">        
+      <img alt="Vue logo" src='@/assets/edificio-d.png' class="flex xs10 offset-xs1">        
       <br>
 <h3>Coordinación de inglés</h3>
 <br>
@@ -366,11 +366,16 @@
         <br>
  
  <p>
- Tiene el objetico de lograr estándares de calidad en el uso y dominio de una lengua extranjera.
+ Tiene el objetivo de lograr estándares de calidad en el uso y dominio de una lengua extranjera.
 </p>
 <strong>Horario de atención</strong>
 <p>
    7:00 a 16:00 hrs
+</p>
+<strong>Responsable</strong>
+<p>
+   <b>Coordinadora: </b>
+  LIC. EN LEA. Claudia Marín Villegas 
 </p>
 
         </v-flex>

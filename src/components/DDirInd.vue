@@ -353,7 +353,7 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-d.jpg' class="flex xs10 offset-xs1">        
+      <img alt="Vue logo" src='@/assets/edificio-d.png' class="flex xs10 offset-xs1">        
       <br>
 <h3>Dirección de ingeniería industrial y sistemas</h3>
 <br>
@@ -366,7 +366,7 @@
         <br>
  
  <p>
- Es la inmediata responsable de promover, coordinar e impulsar los proyectos que sean destinados y que benefician a los miembros de la institución.
+ Ingeniería encargada de formar profesionistas capaces de planear, diseñar, instalar, operar, analizar y mejorar procesos productivos integrados por factor humano, materiales, información, tecnología, energía y recursos financieros, a través de la conducción de procesos de cambio y de mejora continua con una perspectiva integradora y estratégica; con actitud creativa, emprendedora y respetuosa del individuo y el medio ambiente, ajustando su desempeño a los cambios que requiere la sociedad.
 </p>
 <strong>Horario de atención</strong>
 <p>
@@ -375,7 +375,7 @@
 <strong>Responsable</strong>
 <p>
   <b>Directora: </b>
-  D. EN A.D. TRINIDAD PÉREZ MARÍN 
+  D. EN A.D. Trinidad Pérez Maris 
 </p>
         </v-flex>
         </v-layout>

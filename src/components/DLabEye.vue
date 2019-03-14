@@ -353,7 +353,7 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-d.jpg' class="flex xs10 offset-xs1">        
+      <img alt="Vue logo" src='@/assets/edificio-d.png' class="flex xs10 offset-xs1">        
       <br>
 <h3>Laboratorio de electrónica y electricidad</h3>
 <br>
@@ -374,10 +374,10 @@
 </p>
 <strong>Responsable</strong>
 <p>
-  ING. JUAN GARCÍA CONTRERAS
+  ING. Juan García Contreras
 </p>
 <p>
-ING. JOSÉ ANACLETO DE JESÚS
+ING. José Anacleto de Jesús
 </p>
         </v-flex>
         </v-layout>
