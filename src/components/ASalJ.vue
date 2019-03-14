@@ -353,12 +353,12 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-a.png' class="flex xs12 offset-xs1">        
+      <img alt="Vue logo" src='@/assets/edificio-a.png' class="flex xs10 offset-xs1">        
       <br>
 <h3>Sala de juntas</h3>
 <br>
 <h5>Planta alta</h5>
-<img alt="Vue logo" src='@/assets/a-sal-j.png' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/a-sal-j.png' class="flex xs1">        
 <br>
       </v-flex>
 
