@@ -358,7 +358,7 @@
 <h3>Finanzas</h3>
 <br>
 <h5>Planta baja</h5>
-<img alt="Vue logo" src='@/assets/e-fin.jpg' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/e-fin.jpeg' class="flex xs12">        
 <br>
       </v-flex>
 

@@ -358,7 +358,7 @@
 <h3>Incubadora de proyectos</h3>
 <br>
 <h5>Planta alta</h5>
-<img alt="Vue logo" src='@/assets/e-inc.jpg' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/e-inc.jpeg' class="flex xs12">        
 <br>
       </v-flex>
 

@@ -358,7 +358,7 @@
 <h3>Control escolar</h3>
 <br>
 <h5>Planta baja</h5>
-<img alt="Vue logo" src='@/assets/e-cone.jpg' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/e-cone.jpeg' class="flex xs12">        
 <br>
       </v-flex>
 
