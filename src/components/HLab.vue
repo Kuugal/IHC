@@ -357,7 +357,7 @@
       <br>
 <h3>Edificio H</h3>
 <br>
-<img alt="Vue logo" src='@/assets/Autos estacionamiento de motos.png' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/H.png' class="flex xs12">        
 <br>
       </v-flex>
 
@@ -370,7 +370,7 @@ Nueva area que esta designada para una ingeneria proporcionando comodidad.
 </p>
 <strong>Horario de atención</strong>
 <p>
-  Lunes a Viernes 7 am a 9 pm
+  Lunes a Viernes 7:00 a 21:00 hrs
  </p>
         </v-flex>
         </v-layout>

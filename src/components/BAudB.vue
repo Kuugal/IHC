@@ -357,6 +357,7 @@
       <br>
 <h3>Auditorio B</h3>
 <br>
+<h5>Planta baja</h5>
 <img alt="Vue logo" src='@/assets/b-aud-b.png' class="flex xs12">        
 <br>
       </v-flex>

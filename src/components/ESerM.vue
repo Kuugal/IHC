@@ -357,6 +357,7 @@
       <br>
 <h3>Consultorio médico</h3>
 <br>
+<h5>Planta baja</h5>
 <img alt="Vue logo" src='@/assets/e-ser.jpg' class="flex xs12">        
 <br>
       </v-flex>
@@ -371,23 +372,23 @@
 <strong>Horario de atención</strong>
 <p>
    Lunes 
-Consultorio 9:00 – 17:00 hrs.
+Consultorio 9:00 a 17:00 hrs
 
  </p><p>
 Martes 
-Consultorio 9:00 – 18:00 hrs
+Consultorio 9:00 a 18:00 hrs
 
 </p><p>
 Miércoles
-Consultorio 9:00 -14:00 hrs. Y 16:00 – 17:00 hrs.
+Consultorio 9:00 a 14:00 hrs y 16:00 a 17:00 hrs
 
 </p><p>
 Jueves 
-Consultorio  9:00 – 18:00 hrs.
+Consultorio  9:00 a 18:00 hrs
 
 </p><p>
 Viernes 
-Consultorio 9:00 -14:00 hrs
+Consultorio 9:00 a 14:00 hrs
 
 </p>
 

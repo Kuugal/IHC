@@ -357,7 +357,8 @@
       <br>
 <h3>Sala de idiomas</h3>
 <br>
-<img alt="Vue logo" src='@/assets/a-vyp.png' class="flex xs12">        
+<h5>Planta alta</h5>
+<img alt="Vue logo" src='@/assets/a-sal-id.png' class="flex xs12">        
 <br>
       </v-flex>
 

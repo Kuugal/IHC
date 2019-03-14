@@ -355,7 +355,7 @@
         </v-card>-->
       <img alt="Vue logo" src='@/assets/edificio-d.jpeg' class="flex xs10 offset-xs1">        
       <br>
-<h3>Laboratorio de cómputo</h3>
+<h3>Laboratorio de microbiología</h3>
 <br>
 <img alt="Vue logo" src='@/assets/microbiologia.png' class="flex xs12">        
 <br>
@@ -370,7 +370,7 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 21:00
+   7:00 a 21:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>

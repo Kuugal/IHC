@@ -357,6 +357,7 @@
       <br>
 <h3>Sala de juntas</h3>
 <br>
+<h5>Planta alta</h5>
 <img alt="Vue logo" src='@/assets/a-sal-j.png' class="flex xs12">        
 <br>
       </v-flex>

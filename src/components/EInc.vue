@@ -357,6 +357,7 @@
       <br>
 <h3>Incubadora de proyectos</h3>
 <br>
+<h5>Planta alta</h5>
 <img alt="Vue logo" src='@/assets/e-inc.jpg' class="flex xs12">        
 <br>
       </v-flex>
@@ -370,15 +371,15 @@ Encargado de recopilar, capacitar y gestionar proyectos presentados por alumnos 
 </p>
 <strong>Horario de atención</strong>
 <p>
-   Lunes 12:00 – 14:00 hrs. (asesores) y 14:00 – 15:00 hrs. (Mtro. Juan Gabriel)
+   Lunes 12:00 a 14:00 hrs (asesores) y 14:00 a 15:00 hrs (Mtro. Juan Gabriel)
  </p><p>
-Martes 10:00 – 14:00 hrs.
+Martes 10:00 a 14:00 hrs
  </p><p>
-Miércoles 12:00 – 14:00 hrs. (asesores) y 14:00 – 15:00 hrs. (Mtro. Juan Gabriel)
+Miércoles 12:00 a 14:00 hrs (asesores) y 14:00 a 15:00 hrs (Mtro. Juan Gabriel)
  </p><p>
-Jueves 12:00 – 14:00 hrs. (técnico y Mtro. Juan Gabriel)
+Jueves 12:00 a 14:00 hrs (técnico y Mtro. Juan Gabriel)
  </p><p>
-Viernes 10:00 – 14:00 hrs. (diseño y Mtro. Juan Gabriel)
+Viernes 10:00 a 14:00 hrs (diseño y Mtro. Juan Gabriel)
 
 </p>
 <strong>Responsable</strong>

@@ -370,7 +370,7 @@ Es el area designada de la institucion de aulas de emergencias para todas las ca
 </p>
 <strong>Horario de atención</strong>
 <p>
-  Lunes a Viernes 7 am a 9 pm
+  Lunes a Viernes 7:00 a 21:00 hrs
  </p>
         </v-flex>
         </v-layout>

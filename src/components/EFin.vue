@@ -357,6 +357,7 @@
       <br>
 <h3>Finanzas</h3>
 <br>
+<h5>Planta baja</h5>
 <img alt="Vue logo" src='@/assets/e-fin.jpg' class="flex xs12">        
 <br>
       </v-flex>
@@ -370,15 +371,15 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   Lunes 9:00 – 10:00 hrs. Y 13:00 a 15:00 hrs
+   Lunes 9:00 a 10:00 hrs. Y 13:00 a 15:00 hrs
  </p><p>
-Martes 9:00 -15:00 hrs
+Martes 9:00 a 15:00 hrs
 </p><p>
-Miercoles 9:00 -15:00 hrs
+Miercoles 9:00 a 15:00 hrs
 </p><p>
-Jueves 9:00 -15:00 hrs
+Jueves 9:00 a 15:00 hrs
 </p><p>
-Viernes 9:00 -15:00 hrs
+Viernes 9:00 a 15:00 hrs
 </p>
 
 </p>

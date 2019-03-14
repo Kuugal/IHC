@@ -370,7 +370,7 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 21:00
+   7:00 a 21:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>

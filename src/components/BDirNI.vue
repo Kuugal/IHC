@@ -357,6 +357,7 @@
       <br>
 <h3>Dirección de Negocios Internacionales</h3>
 <br>
+<h5>Planta alta</h5>
 <img alt="Vue logo" src='@/assets/b-dir-bio.png' class="flex xs12">        
 <br>
       </v-flex>
@@ -370,7 +371,7 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 18:00
+   7:00 a 18:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>

@@ -370,7 +370,7 @@ Es el area deportiva que la universidad designo para que los alumnos realicen ac
 </p>
 <strong>Horario de atención</strong>
 <p>
-  Lunes a Viernes de 9 am a 6 pm
+  Lunes a Viernes 9:00 a 18:00 hrs
  </p>
  <strong>Responsable</strong>
 <p>

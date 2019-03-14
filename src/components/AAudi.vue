@@ -357,6 +357,7 @@
       <br>
 <h3>Auditoría</h3>
 <br>
+<h5>Planta alta</h5>
 <img alt="Vue logo" src='@/assets/a-auditoria.png' class="flex xs12">        
 <br>
       </v-flex>

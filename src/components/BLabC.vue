@@ -355,8 +355,9 @@
         </v-card>-->
       <img alt="Vue logo" src='@/assets/edificio-b.png' class="flex xs12 offset-xs1">        
       <br>
-<h3>Laboratorios</h3>
+<h3>Laboratorios de cómputo</h3>
 <br>
+<h5>Planta alta</h5>
 <img alt="Vue logo" src='@/assets/b-lab-c1.png' class="flex xs12">        
 <br>
       </v-flex>
@@ -370,7 +371,7 @@ Tiene equipo de cómputo y de química para ser utilizado por los alumnos de las
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 16:00
+   7:00 a 16:00 hrs
 </p>
 
         </v-flex>

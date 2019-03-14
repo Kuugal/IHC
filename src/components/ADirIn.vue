@@ -357,6 +357,7 @@
       <br>
 <h3>Dirección de la división de informática</h3>
 <br>
+<h5>Planta baja</h5>
 <img alt="Vue logo" src='@/assets/a-dir-i.png' class="flex xs12">        
 <br>
       </v-flex>
@@ -370,7 +371,7 @@ Es un departamento donde se encuentran los maestros de tiempo completo (PTC) y t
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 18:00
+   7:00 a 18:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>

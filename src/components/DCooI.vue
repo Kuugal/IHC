@@ -370,12 +370,9 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 16:00
+   7:00 a 16:00 hrs
 </p>
-<strong>Responsable</strong>
-<p>
-  Adriana Karen Vilchis García   
-</p>
+
         </v-flex>
         </v-layout>
         <v-layout row>

@@ -357,6 +357,7 @@
       <br>
 <h3>Rectoría</h3>
 <br>
+<h5>Planta baja</h5>
 <img alt="Vue logo" src='@/assets/a-rec.png' class="flex xs12">        
 <br>
       </v-flex>
@@ -370,7 +371,7 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 16:00
+   7:00 a 16:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>

@@ -355,7 +355,7 @@
         </v-card>-->
       <img alt="Vue logo" src='@/assets/edificio-d.jpeg' class="flex xs10 offset-xs1">        
       <br>
-<h3>Dirección de ingeniería industrial y sitemas</h3>
+<h3>Dirección de ingeniería industrial y sistemas</h3>
 <br>
 <img alt="Vue logo" src='@/assets/direccion de la division de industrial y sistemas.png' class="flex xs12">        
 <br>
@@ -370,7 +370,7 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 18:00
+   7:00 a 18:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>

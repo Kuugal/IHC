@@ -353,7 +353,7 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-i.png' class="flex xs12">        
+      <img alt="Vue logo" src='@/assets/edificio-i.jpeg' class="flex xs12">        
       <br>
 
 <br>
@@ -371,7 +371,7 @@ Nueva area que esta designada para una ingeneria proporcionando comodidad.
 </p>
 <strong>Horario de atención</strong>
 <p>
-  Lunes a Viernes 7 am a 9 pm
+  Lunes a Viernes 7:00 a 21:00 hrs
  </p>
         </v-flex>
         </v-layout>
