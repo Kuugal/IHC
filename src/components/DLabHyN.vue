@@ -353,7 +353,7 @@
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-d.png' class="flex xs10 offset-xs1">        
+      <img alt="Vue logo" src='@/assets/edificio-d.png' class="flex xs10 offset-xs1 offset-md4 md12">        
       <br>
 <h3>Laboratorio de hidráulica y neumática</h3>
 <br>

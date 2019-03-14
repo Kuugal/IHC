@@ -347,25 +347,32 @@
 <!-- END NAV-SIDEBAR -->
 
     <v-content>
-      <v-container fluid fill-height class="grey lighten-4">
-        <v-layout align-center justify-center column fill-height>
-      <v-flex xs10>
+      <v-container fluid fill-height grid-list-md class="grey lighten-4">
+        <v-layout align-center justify-center column fill-height v-bind="binding">
+      <v-flex xs12>
         <!--<v-card dark color="orange">
           <v-card-text class="px-0">12</v-card-text>
         </v-card>-->
-      <img alt="Vue logo" src='@/assets/edificio-a.png' class="flex xs10 offset-xs1">        
+        <v-layout row wrap>
+          <v-flex>
+      <img alt="Vue logo" src='@/assets/edificio-a.png' class="flex xs10 offset-xs1 offset-md4 md12">        
       <br>
 <h3>Dirección de la división de informática</h3>
 <br>
 <h5>Planta baja</h5>
-<img alt="Vue logo" src='@/assets/a-dir-i.png' class="flex xs12">        
+</v-flex></v-layout>
+<v-layout row wrap>
+          <v-flex>
+<img alt="Vue logo" src='@/assets/a-dir-i.png' class="flex xs12">
+        </v-flex></v-layout>
 <br>
-      </v-flex>
+      
 
 
-      <v-flex xs12>
-        <br>
- 
+      
+        
+ <v-layout row wrap>
+          <v-flex>
  <p>
 Es un departamento donde se encuentran los maestros de tiempo completo (PTC) y también la directora de la carrera de la división de informática, se encargan de las asesorías de los alumnos, tanto como también son tutores de las estancias que realizan los alumnos.
 </p>
@@ -378,6 +385,7 @@ Es un departamento donde se encuentran los maestros de tiempo completo (PTC) y t
   <b>Directora: </b>
    Maestra en D. Leticia Jael Rojas Ortiz
 </p>
+</v-flex></v-layout>
         </v-flex>
         </v-layout>
         <v-layout row>
@@ -414,7 +422,17 @@ Es un departamento donde se encuentran los maestros de tiempo completo (PTC) y t
     }),
     props: {
       source: String
+    },
+    computed: {
+      binding () {
+        const binding = {}
+
+        if (this.$vuetify.breakpoint.mdAndUp) binding.column = true
+
+        return binding
+      }
     }
+  
   }
 </script>
 
