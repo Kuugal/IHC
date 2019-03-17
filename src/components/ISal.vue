@@ -357,7 +357,7 @@
       <br>
 
 <br>
-    
+
 
       </v-flex>
 
@@ -365,7 +365,8 @@
       <v-flex xs12>
         <h3>Edificio I</h3>
         <br>
- 
+ <img alt="Vue logo" src='@/assets/i-sal.jpg' class="flex xs12">        
+<br>
  <p>
 Nueva area que esta designada para una ingeneria proporcionando comodidad.
 </p>

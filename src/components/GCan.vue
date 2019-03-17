@@ -357,7 +357,7 @@
       <br>
 <h3>Edificio G</h3>
 <br>
-<img alt="Vue logo" src='@/assets/g-can.jpeg' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/g-can.jpg' class="flex xs12">        
 <br>
       </v-flex>
 

@@ -357,7 +357,7 @@
       <br>
 <h3>Coordinación de inglés</h3>
 <br>
-<img alt="Vue logo" src='@/assets/coordinacion de ingles.png' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/Coordinacion de ingles.png' class="flex xs12">        
 <br>
       </v-flex>
 
@@ -366,16 +366,16 @@
         <br>
  
  <p>
- Tiene el objetivo de lograr estándares de calidad en el uso y dominio de una lengua extranjera.
+ Esta ubicada dentro del edificio a un lado de la dirección de industrial y es la coordinación general de todas las carreras. Tiene el objetivo de lograr estándares de calidad en el uso y dominio de una lengua extranjera.
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 16:00 hrs
+   12:00 a 21:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>
    <b>Coordinadora: </b>
-  LIC. EN LEA. Claudia Marín Villegas 
+  Mtra. Claudia Marín Villegas
 </p>
 
         </v-flex>

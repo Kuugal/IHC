@@ -357,7 +357,7 @@
       <br>
 <h3>Dirección de ingeniería industrial y sistemas</h3>
 <br>
-<img alt="Vue logo" src='@/assets/direccion de la division de industrial y sistemas.png' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/Direccion de industrial.png' class="flex xs12">        
 <br>
       </v-flex>
 
@@ -370,7 +370,7 @@
 </p>
 <strong>Horario de atención</strong>
 <p>
-   7:00 a 18:00 hrs
+   9:00 a 18:00 hrs
 </p>
 <strong>Responsable</strong>
 <p>

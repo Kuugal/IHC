@@ -357,7 +357,7 @@
       <br>
 <h3>Cafetería</h3>
 <br>
-<img alt="Vue logo" src='@/assets/c-caf.jpeg' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/c-caf.jpg' class="flex xs12">        
 <br>
       </v-flex>
 
@@ -372,7 +372,10 @@
 <p>
    7:00 a 19:00 hrs
 </p>
-
+<strong>Responsable</strong>
+<p>
+  Elena Nava Lezma
+</p>
         </v-flex>
         </v-layout>
         <v-layout row>

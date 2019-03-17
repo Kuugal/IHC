@@ -357,7 +357,7 @@
       <br>
 <h3>Almacen de materiales</h3>
 <br>
-<img alt="Vue logo" src='@/assets/almacen de materiales.png' class="flex xs12">        
+<img alt="Vue logo" src='@/assets/almancen de materiales.png' class="flex xs12">        
 <br>
       </v-flex>
 

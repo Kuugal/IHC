@@ -374,7 +374,7 @@
  <v-layout row wrap>
           <v-flex>
  <p>
-Es un departamento donde se encuentran los maestros de tiempo completo (PTC) y también la directora de la carrera de la división de informática, se encargan de las asesorías de los alumnos, tanto como también son tutores de las estancias que realizan los alumnos.
+Formar ingenieros competentes en la implementación y administración de soluciones de negocios o para la investigación basadas en computadora, con una amplia visión de la ciencia y las nuevas tecnologías de la información, bajo el modelo de educación basado en competencias.
 </p>
 <strong>Horario de atención</strong>
 <p>
