@@ -1,6 +1,6 @@
 module.exports = {
   pwa: {
-    name: 'IHC',
+    name: 'UPVT 2D',
     themeColor: '#4CAF50',
     msTileColor: '#FFFFFF'
   }
