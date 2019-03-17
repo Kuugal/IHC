@@ -375,7 +375,7 @@
 <strong>Responsable</strong>
 <p>
    <b>Coordinadora: </b>
-  Mtra. Claudia Marín Villegas
+  Mtra. Claudia Villegas Mercado
 </p>
 
         </v-flex>

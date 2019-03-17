@@ -355,7 +355,9 @@
         </v-card>-->
       <img alt="Vue logo" src='@/assets/edificio-i.png' class="flex xs10 offset-xs1 offset-md4 md12 ">        
       <br>
-
+ <h3>Edificio I</h3>
+        <br>
+ <img alt="Vue logo" src='@/assets/i-sal.jpg' class="flex xs12">    
 <br>
 
 
@@ -363,9 +365,7 @@
 
 
       <v-flex xs12>
-        <h3>Edificio I</h3>
-        <br>
- <img alt="Vue logo" src='@/assets/i-sal.jpg' class="flex xs12">        
+           
 <br>
  <p>
 Nueva area que esta designada para una ingeneria proporcionando comodidad.
