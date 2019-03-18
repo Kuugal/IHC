@@ -1,12 +1,15 @@
 {
-  "name": "ihc",
+  "name": "upvt 2D",
   "version": "0.1.0",
+  "engines": {
+    "node": "10.6.0"
+  },
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "start": "node server.js",
-    "heroku-postbuild": "node server.js",
+    "heroku-postbuild": "npm run build",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
