@@ -12,8 +12,8 @@ self.__precacheManifest = [
     "url": "/img/hidraulica y neumatica.7da5ac59.png"
   },
   {
-    "revision": "d3819319a60557050ce4",
-    "url": "/js/app.e2e474fe.js"
+    "revision": "e33b1e78faafef36a305",
+    "url": "/js/app.92e09d32.js"
   },
   {
     "revision": "1961fe998bf0f743670c",
@@ -24,8 +24,8 @@ self.__precacheManifest = [
     "url": "/img/microbiologia.664a0224.png"
   },
   {
-    "revision": "442ad364729b04ec1b9d",
-    "url": "/js/about.9cc10a70.js"
+    "revision": "3808569b79b3874eb803",
+    "url": "/js/about.7b7a1314.js"
   },
   {
     "revision": "e382d9de26c133dd9bd3f385551035ee",
@@ -40,7 +40,7 @@ self.__precacheManifest = [
     "url": "/img/toluca.af0cbd20.png"
   },
   {
-    "revision": "ae68d52aa3dbc27bf95dab7d80ab3cc3",
+    "revision": "51313aa96d7d05a9c927207a73615ce9",
     "url": "/index.html"
   },
   {
@@ -100,8 +100,8 @@ self.__precacheManifest = [
     "url": "/img/fa-solid-900.82905d8d.svg"
   },
   {
-    "revision": "73f0a88bbca1bec19fb1303c689d04c6",
-    "url": "/fonts/Roboto-Regular.73f0a88b.woff2"
+    "revision": "90d1676003d9c28c04994c18bfd8b558",
+    "url": "/fonts/Roboto-Medium.90d16760.woff2"
   },
   {
     "revision": "662e36bfc701a02b31d0dd6a5977f189",
@@ -240,8 +240,8 @@ self.__precacheManifest = [
     "url": "/fonts/Roboto-LightItalic.13efe6cb.woff"
   },
   {
-    "revision": "90d1676003d9c28c04994c18bfd8b558",
-    "url": "/fonts/Roboto-Medium.90d16760.woff2"
+    "revision": "d26871e8149b5759f814fd3c7a4f784b",
+    "url": "/fonts/Roboto-Light.d26871e8.woff2"
   },
   {
     "revision": "65779ebcc35604a25c2ba77309c5b8af",
@@ -260,6 +260,10 @@ self.__precacheManifest = [
     "url": "/fonts/Roboto-MediumItalic.13ec0eb5.woff2"
   },
   {
+    "revision": "61969d433bf265b9717a6c357a1e04e4",
+    "url": "/fonts/fa-solid-900.61969d43.woff"
+  },
+  {
     "revision": "4357beb823a5f8d65c260f045d9e019a",
     "url": "/fonts/Roboto-RegularItalic.4357beb8.woff2"
   },
@@ -268,16 +272,20 @@ self.__precacheManifest = [
     "url": "/fonts/fa-brands-400.b90365bc.woff"
   },
   {
-    "revision": "462806316fea535a6a57651bc2b000b0",
-    "url": "/fonts/fa-solid-900.46280631.woff2"
-  },
-  {
     "revision": "d3b47375afd904983d9be8d6e239a949",
     "url": "/fonts/Roboto-Thin.d3b47375.woff"
   },
   {
-    "revision": "61969d433bf265b9717a6c357a1e04e4",
-    "url": "/fonts/fa-solid-900.61969d43.woff"
+    "revision": "462806316fea535a6a57651bc2b000b0",
+    "url": "/fonts/fa-solid-900.46280631.woff2"
+  },
+  {
+    "revision": "1d6594826615607f6dc860bb49258acb",
+    "url": "/fonts/Roboto-Medium.1d659482.woff"
+  },
+  {
+    "revision": "ad538a69b0e8615ed0419c4529344ffc",
+    "url": "/fonts/Roboto-Thin.ad538a69.woff2"
   },
   {
     "revision": "5dd3976cb5d61e2e561f2a46b916f377",
@@ -288,36 +296,36 @@ self.__precacheManifest = [
     "url": "/fonts/fa-regular-400.414ff5da.eot"
   },
   {
-    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
-    "url": "/fonts/fa-regular-400.f6c6f6c8.ttf"
-  },
-  {
-    "revision": "ad538a69b0e8615ed0419c4529344ffc",
-    "url": "/fonts/Roboto-Thin.ad538a69.woff2"
-  },
-  {
     "revision": "8a96edbbcd9a6991d79371aed0b0288e",
     "url": "/fonts/Roboto-ThinItalic.8a96edbb.woff"
   },
   {
-    "revision": "d9d17590c975aad1be0ddab673f9c769",
-    "url": "/fonts/fa-brands-400.d9d17590.eot"
-  },
-  {
-    "revision": "83e114c316fcc3f23f524ec3e1c65984",
-    "url": "/fonts/Roboto-MediumItalic.83e114c3.woff"
+    "revision": "f6c6f6c8cb7784254ad00056f6fbd74e",
+    "url": "/fonts/fa-regular-400.f6c6f6c8.ttf"
   },
   {
     "revision": "f5902d5ef961717ed263902fc429e6ae",
     "url": "/fonts/Roboto-RegularItalic.f5902d5e.woff"
   },
   {
+    "revision": "83e114c316fcc3f23f524ec3e1c65984",
+    "url": "/fonts/Roboto-MediumItalic.83e114c3.woff"
+  },
+  {
+    "revision": "73f0a88bbca1bec19fb1303c689d04c6",
+    "url": "/fonts/Roboto-Regular.73f0a88b.woff2"
+  },
+  {
+    "revision": "d9d17590c975aad1be0ddab673f9c769",
+    "url": "/fonts/fa-brands-400.d9d17590.eot"
+  },
+  {
     "revision": "4b115e1153a9ea339d6a0bb284cc8ed3",
     "url": "/fonts/fa-brands-400.4b115e11.woff2"
   },
   {
-    "revision": "1d6594826615607f6dc860bb49258acb",
-    "url": "/fonts/Roboto-Medium.1d659482.woff"
+    "revision": "c73eb1ceba3321a80a0aff13ad373cb4",
+    "url": "/fonts/Roboto-Light.c73eb1ce.woff"
   },
   {
     "revision": "cc2fadc3928f2f223418887111947b40",
@@ -332,24 +340,16 @@ self.__precacheManifest = [
     "url": "/fonts/Roboto-Bold.50d75e48.woff"
   },
   {
-    "revision": "f75569f8a5fab0893fa712d8c0d9c3fe",
-    "url": "/fonts/Roboto-BlackItalic.f75569f8.woff2"
-  },
-  {
-    "revision": "c73eb1ceba3321a80a0aff13ad373cb4",
-    "url": "/fonts/Roboto-Light.c73eb1ce.woff"
+    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
+    "url": "/fonts/Roboto-BoldItalic.94008e69.woff2"
   },
   {
     "revision": "4fe0f73cc919ba2b7a3c36e4540d725c",
     "url": "/fonts/Roboto-BoldItalic.4fe0f73c.woff"
   },
   {
-    "revision": "d26871e8149b5759f814fd3c7a4f784b",
-    "url": "/fonts/Roboto-Light.d26871e8.woff2"
-  },
-  {
-    "revision": "94008e69aaf05da75c0bbf8f8bb0db41",
-    "url": "/fonts/Roboto-BoldItalic.94008e69.woff2"
+    "revision": "f75569f8a5fab0893fa712d8c0d9c3fe",
+    "url": "/fonts/Roboto-BlackItalic.f75569f8.woff2"
   },
   {
     "revision": "59eb3601394dd87f30f82433fb39dd94",
@@ -364,7 +364,7 @@ self.__precacheManifest = [
     "url": "/css/chunk-vendors.ea83ca68.css"
   },
   {
-    "revision": "d3819319a60557050ce4",
+    "revision": "e33b1e78faafef36a305",
     "url": "/css/app.81dc0084.css"
   }
 ];

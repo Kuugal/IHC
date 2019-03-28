@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/precache-manifest.9909fd4d8634d424d3b8454427c1cc7d.js"
+  "/precache-manifest.7f698cc1da2a9c37754d966f9072c81a.js"
 );
 
 workbox.core.setCacheNameDetails({prefix: "upvt"});

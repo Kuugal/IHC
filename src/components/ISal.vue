@@ -37,7 +37,7 @@
         <v-list-tile-action>
           <v-icon>all_out</v-icon>
         </v-list-tile-action>
-         <router-link to="/a-rec"><v-list-tile-title>Rectoria</v-list-tile-title></router-link>
+         <router-link to="/a-rec"><v-list-tile-title>Rectoría</v-list-tile-title></router-link>
       </v-list-tile>
 
       <v-list-tile>
