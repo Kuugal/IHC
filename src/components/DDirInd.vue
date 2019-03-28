@@ -375,7 +375,7 @@
 <strong>Responsable</strong>
 <p>
   <b>Directora: </b>
-  D. EN A.D. Trinidad Pérez Maris 
+  Dra. en Alta Dirección Trinidad Pérez Maris 
 </p>
         </v-flex>
         </v-layout>

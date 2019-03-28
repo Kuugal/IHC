@@ -374,7 +374,7 @@ Es el area deportiva que la universidad designo para que los alumnos realicen ac
  </p>
  <strong>Responsable</strong>
 <p>
-  Lic. Julio Cesar Ortiz Cano
+  Lic. Julio Cesar Ortiz
 </p>
         </v-flex>
         </v-layout>

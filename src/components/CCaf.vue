@@ -374,7 +374,7 @@
 </p>
 <strong>Responsable</strong>
 <p>
-  Elena Nava Lezma
+  C. Elena Nava Lezma
 </p>
         </v-flex>
         </v-layout>

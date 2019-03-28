@@ -374,6 +374,10 @@ Nueva area que esta designada para una ingeneria proporcionando comodidad.
 <p>
   Lunes a Viernes 7:00 a 21:00 hrs
  </p>
+ <strong>Responsable</strong>
+<p>
+  M. En S.H.O. Diana Palacios Valdez
+</p>
         </v-flex>
         </v-layout>
         <v-layout row>

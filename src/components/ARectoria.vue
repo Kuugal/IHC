@@ -367,7 +367,7 @@
         <br>
  
  <p>
- Es el departamento más importante de la dirección porque es donde se encuentra la directora y se encargan que todo salga bien en la institución
+ Es el departamento más importante de la Universidad porque es donde se encuentra la Rectora y se encargan que todo salga bien en la institución.
 </p>
 <strong>Horario de atención</strong>
 <p>
